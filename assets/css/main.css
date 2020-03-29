@@ -4,15 +4,78 @@
     box-sizing: border-box;
 }
 #intro{
-    background-image: url("../img/profile_img.jpg");
+    background-image: url("../../img/profile_img.jpg");
     display: block;
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.slider div{
+.wrap{
+    position: relative;
+    top: 20vh;
+    height: 500px;
+}
+.slider{
+    height: 100%;
+    width: 10500px;
+    margin-left: 2.8%;
+}
+.slider img{
+    width: 700px;
+    height: 550px;
+    float: left;   
+    padding: 5px;
+}
+.head-wrap{
+    position: fixed;
+    top: 15vh;
+    height: 72vh;
+    margin-left: 20px;
+    background-color: rgba(255,255,255,0.95);
+    z-index: 3;
+}
+.header-section{
+    position: relative;
+    height: 88%;    
+    padding: 60px;
+    width: 250px;
+    
+}
+.header-section a{
+    color: rgb(0, 0, 0);
+    font-family: "Times New Roman", "Times Roman", serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.3;
+    background: rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+.header-section h1{
+    color: rgb(0, 0, 0);
+    font-family: "Times New Roman", "Times Roman", serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.1em;
+}
+.header-section li{
+    display: block;
+    width: 100%;
     overflow: hidden;
+}
+.content-section{
+    position: absolute;
+    z-index: 1;
+}
+.social-links{
+    position: relative;
     float: left;
-    width: 20%;
+    list-style-type: none;
+    font-size: 14px;
+    width: 100%;
+    padding: 0 60px 0;
+    z-index: 4;
+    color: black;
 }
