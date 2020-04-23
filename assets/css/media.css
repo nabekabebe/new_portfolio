@@ -7,9 +7,6 @@
         margin-left: unset;
         background-color: unset;
     }
-    .header-section{
-        margin: unset;
-    }
     .bg-light{
         background-color:#f8f9fa !important;
     }
@@ -23,6 +20,9 @@
     }
     .social-links{
         display: none;
+    }
+    .hidden{
+        display: flex;
     }
 
 
@@ -43,3 +43,27 @@
        
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1260px){
+    body{
+        font-size: 1.2em !important;
+    }
+    .head-wrap{
+        width: 27vw !important;
+    }
+    .nav.nav-link-link {
+        display: block;
+        padding: unset;
+    }
+    .social-links{
+        bottom: 36%;
+    }
+    .slider{
+        margin-left: 28vw;
+    }
+    .slider img{
+        width: 550px;
+        height: 500px;
+    }
+}
+
