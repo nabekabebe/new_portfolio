@@ -4,6 +4,7 @@
         display: block;
         width: 100vw;
         top: 0;
+        height: 10vh;
         margin-left: unset;
         background-color: unset;
     }
@@ -51,9 +52,6 @@
     .news{
         margin-top: 30%;
     }
-    .preview img{
-        margin-top: 45%;
-    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
@@ -82,7 +80,8 @@
         position: relative;
         top: 20vh;
     }
-    
+  
+
 }
 @media screen and (min-width: 1024px) and (max-width:1281px){
     .head-wrap{
