@@ -3,6 +3,7 @@
         position: fixed;
         display: block;
         width: 100vw;
+        height: 10vh;
         top: 0;
         margin-left: unset;
         background-color: unset;
