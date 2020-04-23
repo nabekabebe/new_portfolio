@@ -97,6 +97,9 @@ nav ul li a{
 .hidden{
     display: none;
 }
+.hidden div{
+    margin-right: 5px;
+}
 
 /* styling slide section */
 .content-section{
