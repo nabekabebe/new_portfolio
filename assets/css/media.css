@@ -13,6 +13,9 @@
     .nav ul li a{
         font-size: 1em;
     }
+    .content-section{
+        margin-top: 80px;
+    }
     .hold{
         display: flex;
         flex-direction: row;
@@ -25,7 +28,10 @@
         display: flex;
     }
 
-
+    .wrapper{
+        position: unset;
+        top: unset;
+    }
     .body-wrap{
         position: relative;
         /* height: 500px; */
@@ -42,14 +48,57 @@
         padding: 4px;
        
     }
+    .news{
+        margin-top: 30%;
+    }
+    .preview img{
+        margin-top: 45%;
+    }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1260px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
     body{
         font-size: 1.2em !important;
+        
     }
     .head-wrap{
-        width: 27vw !important;
+        width: 25vw !important;
+    }
+    .nav.nav-link-link {
+        display: block;
+        padding: unset;
+    }
+    .social-links{
+        bottom: 28%;
+    }
+    .slider{
+        margin-left: 28vw;
+    }
+    .slider img{
+        width: 550px;
+        height: 500px;
+    }
+    .wrapper{
+        position: relative;
+        top: 20vh;
+    }
+    
+}
+@media screen and (min-width: 1024px) and (max-width:1281px){
+    .head-wrap{
+        position: fixed;
+    }
+    .news{
+        margin-left:25%;
+        max-width: 75%;
+    }
+    .head-wrap{
+        position: fixed;
+        width: 25vw !important;
+    } 
+    body{
+        font-size: 1.2em !important;
+        
     }
     .nav.nav-link-link {
         display: block;
@@ -65,5 +114,5 @@
         width: 550px;
         height: 500px;
     }
-}
 
+} 

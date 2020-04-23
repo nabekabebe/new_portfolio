@@ -10,7 +10,7 @@
 #intro{
     background-image: url("../../img/profile_img.jpg");
     display: block;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,13 +168,19 @@ nav ul li a{
 /* contact style */
 
 .preview img {
-    width: 100%;
-    height: 50vh;
+    padding-top: 20px;
+    width: 58vw;
+    max-height: 55vh;
     margin: 20% 0 5% 0;
 }
 .article-text h2,
 .article-text p{
     text-align: center;
+}
+.article-text h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    font-weight: 600;
 }
 .article-text p{
     margin-bottom: 1em;
@@ -184,7 +190,7 @@ nav ul li a{
     font-size: .9em;
 }
 .break{
-    width: 25rem;
+    max-width: 25rem;
     border-bottom: 2px solid rgb(151, 151, 151);
     box-shadow: 0 .1px .4px black;
     margin: 0 auto;
@@ -194,7 +200,7 @@ nav ul li a{
     margin: 0 auto;
     margin-top: 150px;
     margin-bottom: 150px;
-    width: 500px;
+    max-width: 500px;
 
 }
 
